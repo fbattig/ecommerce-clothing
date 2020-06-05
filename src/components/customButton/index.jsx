@@ -1,10 +1,13 @@
-import React from 'react'
-import './styles.scss'
+import React from 'react';
+import './styles.scss';
 
-export default function index({children, ...otherProps}) {
-  return (
-      <button  {...otherProps} className='custom-button'>
-        {children}
-      </button>
-  )
+export default function index({ children, isGoogleSignIn, ...otherProps }) {
+	return (
+		<button
+			{...otherProps}
+			className={`${isGoogleSignIn ? 'google-sign-in' : ''} custom-button`}
+		>
+			{children}
+		</button>
+	);
 }
