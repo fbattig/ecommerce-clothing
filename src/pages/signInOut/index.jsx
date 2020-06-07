@@ -1,6 +1,6 @@
 import React from 'react';
 import SignIn from './signIn';
-import SignUp from './signOut';
+import SignUp from './signUp';
 import './styles.scss';
 
 export default function index() {
