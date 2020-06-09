@@ -2,8 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { ReactComponent as Logo } from '../../assets/logo.svg';
-import CartDropdown from '../cartDropdown';
-import CartIcon from '../cartIcon';
+import CartDropdown from '../cart/cartDropdown';
+import CartIcon from '../cart/cartIcon';
 import { auth } from '../../firebase/firebase.utils';
 import './styles.scss';
 
